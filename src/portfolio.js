@@ -26,8 +26,8 @@ const greeting = {
   "Software Developer with 5+ yrs of experience, currently working as team lead with experience in application development, microservices, Rest API, Big data projects and Data Analysis.",
   resumeLink:
     "https://drive.google.com/file/d/1aHCO-QBK7g1ic4KG0bUw3W9OR3iheMcZ/view?usp=sharing",
-  portfolio_repository: "",
-  githubProfile: "",
+  portfolio_repository: "https://github.com/zukerrrr/vibhabadhe",
+  githubProfile: "https://github.com/zukerrrr",
 };
 
 const socialMediaLinks = [
