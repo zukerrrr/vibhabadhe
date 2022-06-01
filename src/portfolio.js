@@ -7,72 +7,63 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Deepak's Portfolio",
+  title: "Vibha badhe Portfolio",
   description:
-    "Full Stack Developer and expertise in java technologies, front end JavaScript frameworks and backend web services. A quick learner who can adapt to new technologies and implement them seamlessly for enterprise level product development.",
+    "Full Stack Developer with 4 years of experience.",
   og: {
-    title: "Deepak badhe Portfolio",
+    title: "Vibha Badhe Portfolio",
     type: "website",
-    url: "http://dbadhe.com/",
+    url: "http://vbadhe.com/",
   },
 };
 
 //Home Page
 const greeting = {
-  title: "Deepak badhe",
-  logo_name: "Deepak Badhe",
-  nickname: "deepak",
+  title: "Vibha badhe",
+  //logo_name: "Vibha Badhe 1",
+  nickname: "Work @BakerHughes|Ex-Walmart|Ex-Oracle",
   subTitle:
-    "Full Stack Developer and expertise in java technologies, front end JavaScript frameworks and backend web services. A quick learner who can adapt to new technologies and implement them seamlessly for enterprise level product development.",
+  "Software Developer with 5+ yrs of experience, currently working as team lead with experience in application development, microservices, Rest API, Big data projects and Data Analysis.",
   resumeLink:
-    "https://drive.google.com/file/d/117GBHD1mgTQ8wfUQ9oI1FhKZNYHzf4-O/view?usp=drivesdk",
-  portfolio_repository: "https://github.com/deepakbadhe/myPortfolio",
-  githubProfile: "https://github.com/deepakbadhe5",
+    "https://drive.google.com/file/d/1aHCO-QBK7g1ic4KG0bUw3W9OR3iheMcZ/view?usp=sharing",
+  portfolio_repository: "",
+  githubProfile: "",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
-    link: "https://github.com/deepakbadhe5",
+    link: "https://github.com/zukerrrr",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/deepak-badhe-aaa9ab156/",
+    link: "https://www.linkedin.com/in/vibha-badhe-5000129b/",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
     name: "Gmail",
-    link: "mailto:deepakbadhe5@gmail.com",
+    link: "mailto:vibhabadhe123@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/deepakbadhe5",
+    link: "https://twitter.com/vibha_badhe",
     fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
     backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
   },
   {
     name: "Facebook",
-    link: "https://www.facebook.com/deepak.badhe.545/",
+    link: "https://www.facebook.com/vib12345",
     fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
     backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   },
   {
     name: "Instagram",
-    link: "https://www.instagram.com/deepakbadhe5/",
+    link: "https://www.instagram.com/vb8926",
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
@@ -80,24 +71,12 @@ const socialMediaLinks = [
 
 const skills = {
   data: [
-    // {
-    //   title: "Data Structure and Algorithms",
-    //   fileName: "DataScienceImg",
-    //   skills: [
-    //     "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases",
-    //     "⚡ Experience of working with Computer Vision and NLP projects",
-    //     "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis",
-    //   ],
-    //   softwareSkills: [
-    //
-    //   ],
-    // },
     {
       title: "Full Stack Development",
       fileName: "FullStackImg",
       skills: [
-        "⚡ Building resposive website front end using HTML, CSS, bootstrap",
-        "⚡ Creating application backend in Node, Express & EJS",
+        "⚡ Building website front end using HTML, CSS, bootstrap",
+        "⚡ Creating application backend in Node, Java & Flask",
       ],
       softwareSkills: [
         {
@@ -123,11 +102,12 @@ const skills = {
           },
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
+          skillName: "Python",
+          fontAwesomeClassname: "ion-logo-python",
           style: {
-            color: "#61DAFB",
-          },
+            backgroundColor: "transparent",
+            color: "#3776AB",
+        }
         },
         {
           skillName: "NodeJS",
@@ -137,8 +117,8 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "JAVA",
+          fontAwesomeClassname: "simple-icons:java",
           style: {
             color: "#CB3837",
           },
@@ -151,35 +131,61 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server",
+        "⚡ Deploying microservies on cloud"
       ],
       softwareSkills: [
         {
-          skillName: "SQL",
-          fontAwesomeClassname: "simple-icons:PostgreSQL",
+          skillName: "AWS",
+          fontAwesomeClassname: "simple-icons:amazonaws",
+          style: {
+            color: "#FF9900",
+          },
+        },
+        {
+          skillName: "Azure",
+          fontAwesomeClassname: "simple-icons:microsoftazure",
+          style: {
+            color: "#0089D6",
+          },
+        }, {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "simple-icons:postgresql",
           style: {
             color: "#336791",
           },
         },
         {
-          skillName: "MongoDB",
-          fontAwesomeClassname: "simple-icons:mongodb",
+          skillName: "Docker",
+          fontAwesomeClassname: "simple-icons:docker",
           style: {
-            color: "#47A248",
+            color: "#1488C6",
           },
         },
       ],
     },
     {
-      title: "UI Design",
-      fileName: "DesignImg",
+      title: "Data Science & ML",
+      fileName: "DataScienceImg",
       skills: [
-        "⚡ Designing highly attractive user interface for mobile and web applications",
-        "⚡ Creating the flow of application functionalities to optimize user experience",
+        "⚡ Data Analysis, Data cleaning and Data transformations on big data projects",
+        "⚡ Experience of working with data pipelines NIFI and orechestrator like airflow"
       ],
-      softwareSkills: [],
-    },
+      softwareSkills: [
+        {
+          skillName: "Airflow",
+          fontAwesomeClassname: "logos-tensorflow",
+          style: {
+            backgroundColor: "#1488C6",
+          },
+        },
+        {
+          skillName: "NIFI",
+          fontAwesomeClassname: "simple-icons:nifi",
+          style: {
+            backgroundColor: "#1488C6",
+          },
+        }],
+      }
   ],
 };
 
@@ -192,7 +198,7 @@ const competitiveSites = {
       style: {
         color: "#2EC866",
       },
-      profileLink: "https://www.hackerrank.com/deepakbadhe",
+      profileLink: "https://www.hackerrank.com/badhe_vibha9767",
     },
     {
       siteName: "Codechef",
@@ -200,7 +206,7 @@ const competitiveSites = {
       style: {
         color: "#5B4638",
       },
-      profileLink: "https://www.codechef.com/users/deepakbadhe",
+      profileLink: "https://www.codechef.com/users/badhe_vibha976",
     },
   ],
 };
@@ -208,17 +214,29 @@ const competitiveSites = {
 const degrees = {
   degrees: [
     {
-      title: "Indira Gandhi Engineering College",
-      subtitle: "B.Tech. in Computer Engineering",
-      logo_path: "iiitk_logo.png",
-      alt_name: "IGEC Sagar",
-      duration: "2017 - 2021",
+      title: "Veermata Jijabai Technological Institute",
+      subtitle: "M.Tech. Computer Science",
+      logo_path: "vjtilogo.png",
+      alt_name: "VJTI Mumbai",
+      duration: "2016 - 2018",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA  etc.",
-        "⚡ Apart from this, I have done courses on Web services, Core Java and Full Stack Development.",
+        "⚡ I have done M. Tech in computer science with subjects like DS, Algorithms, DBMS, OS, CA  etc.",
+        "⚡ Apart from this, I have also knowledge on Web services, Core Java, python and Full Stack Development.",
       ],
-      website_link: "http://igecsagar.ac.in",
-    },
+      website_link: "https://vjti.ac.in/",
+    },{
+      title: "Government College of Engineering, Jalgaon",
+      subtitle: "B.Tech. Computer Engineering",
+      logo_path: "gcoej_logo.png",
+      alt_name: "GCOEJ",
+      duration: "2011 - 2015",
+      descriptions: [
+        "⚡ I have done B. Tech in computer science with subjects like DS, Algorithms, DBMS, OS, TOC, AI  etc.",
+        "⚡ Apart from this, I have participated in dance compititions and volleyball. I also hosted events in tech fest.",
+        "⚡ I was class representative in all yrs and also Vice president of Departmental Club."
+      ],
+      website_link: "https://www.gcoej.ac.in/site/",
+    }
   ],
 };
 
@@ -234,10 +252,10 @@ const certifications = {
     },
     {
       title: "Core Java",
-      subtitle: "- Hari Krishna",
+      subtitle: "Oracle Training",
       logo_path: "core_java.png",
       certificate_link: "",
-      alt_name: "IBM",
+      alt_name: "",
       color_code: "#1F70C199",
     },
     // {
@@ -263,77 +281,131 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "System Engineer",
-          company: "Infosys",
-          company_url: "https://infosys.com/",
-          logo_path: "Infosys_logo.png",
-          duration: "Sept 2021 - PRESENT",
-          location: "Mysore, Karnataka",
+          title: "Software Developer [Team Lead]",
+          company: "Baker Hughes",
+          company_url: "https://www.bakerhughes.com/",
+          logo_path: "baker_logo.png",
+          duration: "Oct 2021 - Present",
+          location: "Pune",
           description:
-            "I am working with AGCO domain. I have been trained on basic computer technology also in OOPs concept, MySQL, C# as Major Programming Language. I have also worked on web Technologies such as HTML,CSS,Bootstrap and EF Core,Angular Framework, Rest APIs",
+            "I worked in oil and gas domain build customer-centric digital solutions for developing big data project . I have been working on Aws s3, Rest API, microservices, Python, flask , Airflow, Tamr and NIF. I have also been leading team of 8 people.",
+          color: "#0879bf",
+        },
+        {
+          title: "Software Developer SDE II",
+          company: "Walmart Labs",
+          company_url: "https://www.linkedin.com/company/walmartglobaltech/?originalSubdomain=in",
+          logo_path: "walmart_logo.png",
+          duration: "July 2020 - Oct 2021",
+          location: "Chennai",
+          description:
+            "I worked in Retail domain build application for SAMS club. I have majorly worked on Java, spring boot, azure, Api development and JIRA fixes from customers. I have been trained on basic computer technology also in OOPs concepts, Oracle, Spring boot, Rest API, SOAP, Java as Major Programming Language. ",
+          color: "#0879bf",
+        },
+        {
+          title: "Application Developer",
+          company: "Oracle",
+          company_url: "https://www.oracle.com/in/industries/financial-services/",
+          logo_path: "oracle_logo.png",
+          duration: "Aug 2018 - July 2020",
+          location: "Pune",
+          description:
+            "I worked in financial domain build customer-centric digital solutions, and achieve success through collaboration in an increasingly complex financial ecosystem. I have been trained on basic computer technology also in OOPs concepts, Oracle, Spring boot, Rest API, SOAP, Java as Major Programming Language. I have also worked on web Technologies such as HTML,CSS,Bootstrap, Oracle ADF and OJET.",
           color: "#0879bf",
         },
       ],
     },
-    // {
-    //   title: "Internships",
-    //   experiences: [
-    //     {
-    //       title: "Data Science Research Intern",
-    //       company: "Delhivery Pvt. Ltd.",
-    //       company_url: "https://www.delhivery.com/",
-    //       logo_path: "delhivery_logo.png",
-    //       duration: "May 2019 - Sept 2019",
-    //       location: "Gurgaon, Haryana",
-    //       description:
-    //         "I have worked on project of predicting freight rates based on previous data. There were two objectives: (1) To build a forecasting engine to predict daily freight rates. (2) To embed feature in the model which can explain the seasonal major changes in freight rate based on regions and locations. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 with the use of Kafka stream jobs, ElasticSearch and PostgreSQL.",
-    //       color: "#ee3c26",
-    //     },
-    //   ],
-    // },
+    {
+      title: "Internships",
+      experiences: [
+        {
+          title: "Software Developer Intern",
+          company: "GE Oil and Gas",
+          company_url: "https://www.ge.com/digital/industry/oil-gas",
+          logo_path: "gelogo.png",
+          duration: "May 2017 - June 2018",
+          location: "Mumbai",
+          description:
+            "In my internship, I have mainly worked on project of IntelliStream Multi-Well Optimization Using predictive capabilities to increase optimization workflow and efficiency by 100xa. is an end to end enterprise suite for the oil and gas industry, converting data bits into insights to reduce operational complexity, and increase production efficiency. There were two other projects as well: (1) develop real time application for cab booking for employees. (2) develop chatbot using ML and Neural network for customer care queries. I have closely worked with deep learning models in combination with statistical methods to create solution for this. At the end of internship, I had created model deployed on AWS EC2 and PostgreSQL.",
+          color: "#ee3c26",
+        },
+      ],
+    }  ,
   ],
 };
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Projects And Publications",
   description:
     "My projects makes use of vast variety of latest technology tools. My best experience is to create Data projects and deploy them to web applications using cloud infrastructure.",
   avatar_image_path: "projects_image.svg",
 
   sections: [
     {
-      title: "Drive Your Car",
+      title: "Project: MTC Cab Booking System",
       experiences: [
         {
-          title: "",
-          company: "",
+          title: "Cab Booking",
+          company: "GE",
           company_url: "",
-          logo_path: "ccar.png",
-          duration: "Jan 2020 - July 2020 ",
-          location: "Sagar, M.P.",
+          logo_path: "gelogo.png",
+          duration: "May 2017 - Dec 2017",
+          location: "Mumbai",
           description:
-            "It is a web app designed for two types of users one can publish his/her car on our website and earn some money by doing so, while other user can hire a car on rent basis based on their desired brand at any place from the website.",
+            "It is a website designed for two types of users one can publish his/her car on our website and other user who can book car for perticular mentioned time at morning and evening for office from the website.",
+          color: "#0879bf",
+        },
+      ],
+    },{
+      title: "Project: Neural Chatbot",
+      experiences: [
+        {
+          title: "AIBot",
+          company: "VJTI",
+          company_url: "",
+          logo_path: "vjtilogo.png",
+          duration: "Jan 2018 - May 2018 ",
+          location: "Mumbai",
+          description:
+            "A chatbot for simple conversation in English language developed using machine learning libraries, python and tensarflow. ",
           color: "#0879bf",
         },
       ],
     },
     {
-      title: "Project Idea",
+      title: "Publication: A Neural Conversational Model ",
       experiences: [
         {
-          title: "",
-          company: "",
-          company_url: "",
-          logo_path: "idea.png",
-          duration: "Dec 2020 - Mar 2021 ",
-          location: "Sagar, M.P.",
+          title: "A Neural Conversational Model for Automatic Generation of Conversations",
+          company: "IRJET",
+          company_url: "https://www.irjet.net/archives/V5/i6/IRJET-V5I6602.pdf",
+          logo_path: "vjtilogo.png",
+          duration: "Sept 2017- May 2018 ",
+          location: "Mumbai",
           description:
-            "A web app designed for educational purpose where when can share their project for others to get benefited out of it. It uses the OAuth of Google and Facebook for the authentication purpose and remaining all are technologies used for website management.",
+            "- The conversations between humans and machines is regarded as one of the most hardcore problems in computer technology, which involves interdisciplinary techniques in information retrieval, ML, natural language Understanding and artificial intelligence.  ",
           color: "#0879bf",
         },
       ],
     },
+    {
+      title: "Publication: Two Round Searchable Encrypted Data",
+      experiences: [
+        {
+          title: "Two Round Searchable Encrypted Data using Multi-Keywords for Cloud Computing",
+          company: "Gcoej",
+          company_url: "https://www.researchgate.net/publication/277646944_Two_Round_Searchable_Encrypted_Data_using_Multi-Keywords_for_Cloud_Computing",
+          logo_path: "gcoej_logo.png",
+          duration: "oct 2014 - April 2015 ",
+          location: "Jalgaon",
+          description:
+            "Cloud Computing represents vital role in Information Technology. Cloud Computing provides high security for managing & storing large scale data in internet-based Infrastructure. Cloud provides large storage space & make user friendly for fast accessing data. Searchable Symmetric Encryption (SSE) use to secure and retrieve data from the cloud and it also focus on addressing data privacy issues. We observe that server side ranking based on Order Preserving Encryption (OPE) certainly leaks data privacy. ",
+          color: "#0879bf",
+        },
+      ],
+    },
+    
   ],
 };
 
@@ -347,28 +419,17 @@ const publicationsHeader = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "deepak5.png",
+    profile_image_path: "vibha.jpg",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Front end, React, Beckend and databases.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with Java, Python, Web Services, Rest API and databases.",
   },
   blogSection: {
     title: "Blogs",
     subtitle:
-      "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://deepakbadhe.tk",
+      "I am not fond of writing but tried to write blogs",
+    link: "https://vibhabadhe.tk",
     avatar_image_path: "blogs_image.svg",
-  },
-  addressSection: {
-    title: "Address",
-    subtitle:
-      "S/O Ganesh Badhe H. No. 129, Ward no 12, Gate no 7,Nepanagar, Dist.-Burhanpur, Madhya Pradesh - 450221",
-    avatar_image_path: "address_image.svg",
-    location_map_link: "https://goo.gl/maps/r8Nx3SLu9wSQ2rPt6",
-  },
-  phoneSection: {
-    title: "Phone Number",
-    subtitle: "+91 9399210581",
-  },
+  }
 };
 
 export {
